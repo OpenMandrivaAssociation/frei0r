@@ -13,7 +13,8 @@ Source0:	%{name}-plugins-%{version}.tar.gz
 Provides:	%{name}-plugins = %{EVRD}
 BuildRequires:	cmake
 BuildRequires:	pkgconfig(opencv)
-Buildrequires:	pkgconfig(gavl)
+# needs to be moved to main
+#Buildrequires:	pkgconfig(gavl)
 
 %description
 Frei0r is a minimalistic plugin API for video effects.
@@ -36,4 +37,3 @@ can be controlled by parameters.
 %{_includedir}/frei0r.h
 %dir %{_prefix}/lib/frei0r-1
 %{_prefix}/lib/frei0r-1/*.so
-
