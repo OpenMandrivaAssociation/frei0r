@@ -36,3 +36,18 @@ can be controlled by parameters.
 %{_includedir}/frei0r.h
 %dir %{_prefix}/lib/frei0r-1
 %{_prefix}/lib/frei0r-1/*.so
+
+
+%changelog
+* Thu Nov 24 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.3-2
++ Revision: 733199
+- reenable gavl support
+
+* Thu Nov 24 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.3-1
++ Revision: 733158
+- drop build dependency on gavl while it's in contrib
+- imported package frei0r
+
+
+* Thu Nov 24 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.3-1
+- initial Mandriva package
