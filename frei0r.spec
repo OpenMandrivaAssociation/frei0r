@@ -9,7 +9,7 @@ Url:		http://frei0r.dyne.org/
 License:	GPLv2+
 Group:		System/Libraries
 Summary:	Minimalistic plugin API for video effects, plugins collection
-Source0:	%{name}-plugins-%{version}.tar.gz
+Source0:	https://files.dyne.org/frei0r/releases/%{name}-plugins-%{version}.tar.gz
 Provides:	%{name}-plugins = %{EVRD}
 BuildRequires:	cmake
 BuildRequires:	pkgconfig(opencv)
