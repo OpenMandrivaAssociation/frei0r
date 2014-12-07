@@ -4,7 +4,7 @@
 
 Name:		frei0r
 Version:	1.4
-Release:	2
+Release:	3
 Url:		http://frei0r.dyne.org/
 License:	GPLv2+
 Group:		System/Libraries
