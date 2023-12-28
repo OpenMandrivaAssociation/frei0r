@@ -3,8 +3,8 @@
 %define	devname	%mklibname -d nut
 
 Name:		frei0r
-Version:	1.4
-Release:	4
+Version:	1.8.0
+Release:	1
 Url:		http://frei0r.dyne.org/
 License:	GPLv2+
 Group:		System/Libraries
