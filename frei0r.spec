@@ -12,7 +12,7 @@ Summary:	Minimalistic plugin API for video effects, plugins collection
 Source0:	https://files.dyne.org/frei0r/releases/%{name}-plugins-%{version}.tar.gz
 Provides:	%{name}-plugins = %{EVRD}
 BuildRequires:	cmake
-BuildRequires:	pkgconfig(opencv)
+BuildRequires:	pkgconfig(opencv4)
 Buildrequires:	pkgconfig(gavl)
 
 %description
