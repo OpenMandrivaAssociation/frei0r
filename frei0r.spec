@@ -13,7 +13,7 @@ Source0:	https://files.dyne.org/frei0r/releases/%{name}-plugins-%{version}.tar.g
 Provides:	%{name}-plugins = %{EVRD}
 BuildRequires:	cmake
 BuildRequires:	pkgconfig(opencv4)
-Buildrequires:	pkgconfig(gavl)
+BuildRequires:	pkgconfig(gavl)
 
 %description
 Frei0r is a minimalistic plugin API for video effects.
